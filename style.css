@@ -1,0 +1,80 @@
+/* General styles */
+
+body {
+  margin: 0;
+}
+
+body > * {
+  padding: 10px;
+  font-size: 20px;
+  border: 20px solid rgba(0,0,0,0.5);
+}
+
+/* specific boxes */
+
+header, footer {
+  background-color: blue;
+  color: white;
+}
+
+main {
+  background-color: yellow;
+  /* margin-bottom: 20px; */
+  border: 55px 55px 55px 55px;
+  margin: 30px 30px 30px 30px;
+  /* padding: 3px 30px 30px 30px; */
+  max-width: 200px;
+}
+
+footer {
+  margin-top:25px
+}
+
+/* 
+@media only screen and (max-width: 500px) {
+  body {
+    background-color: black;
+  }
+} */
+
+@media screen and (min-width: 0px)  {
+  body {
+    background-color: red;
+  }
+}
+
+@media screen and (min-width: 400px) {
+  body {
+    background-color: orange;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  body {
+    background-color: yellow;
+  }
+}
+
+@media screen and (min-width: 750px) {
+  body {
+    background-color: green
+  }
+}
+
+@media screen and (min-width: 900px) {
+  body {
+    background-color: blue
+  }
+}
+
+@media only screen and (min-width: 1050px) {
+  body {
+    background-color: indigo
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  body {
+    background-color: violet
+  }
+}
